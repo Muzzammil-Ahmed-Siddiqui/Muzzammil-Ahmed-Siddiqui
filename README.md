@@ -20,7 +20,7 @@ This version avoids missing local images by using hosted dynamic SVG services.
 <a href="https://www.linkedin.com/in/muzzammil-ahmed-siddiqui-0502842a1/">
   <img src="https://img.shields.io/badge/LinkedIn-Muzzammil%20Ahmed%20Siddiqui-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a>
-<a href="https://github.com/Muzzammil-Ahmed-Siddiqui">
+<a href="https://github.com/Muzzammil-Ahmed-Siddiqui" target="_blank" rel="noopener noreferrer">
   <img src="https://img.shields.io/badge/GitHub-Muzzammil--Ahmed--Siddiqui-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
 </a>
 
@@ -80,7 +80,7 @@ mindset: Build, test, document, deploy
       <p>
         <b>Tech:</b> Next.js, Supabase, Clerk, OpenAI, Retell AI, WebRTC
       </p>
-      <a href="https://github.com/Muzzammil-Ahmed-Siddiqui?tab=repositories">
+      <a href="https://github.com/TasmeerJamali/audvive" target="_blank" rel="noopener noreferrer">
         <img src="https://img.shields.io/badge/View%20Project-181717?style=for-the-badge&logo=github&logoColor=white" />
       </a>
     </td>
@@ -93,7 +93,7 @@ mindset: Build, test, document, deploy
       <p>
         <b>Tech:</b> Python, FastAPI, BM25, Vector Search, Cross-Encoder, Docker, GitHub Actions
       </p>
-      <a href="https://github.com/Muzzammil-Ahmed-Siddiqui/ask-my-doc-">
+      <a href="https://github.com/Muzzammil-Ahmed-Siddiqui/private-rag-assistant" target="_blank" rel="noopener noreferrer">
         <img src="https://img.shields.io/badge/View%20Project-181717?style=for-the-badge&logo=github&logoColor=white" />
       </a>
     </td>
@@ -108,7 +108,7 @@ mindset: Build, test, document, deploy
       <p>
         <b>Tech:</b> JavaScript, Express.js, PostgreSQL, Prisma, Gemini, OpenAI
       </p>
-      <a href="https://github.com/Muzzammil-Ahmed-Siddiqui/ai-code-review-assistant">
+      <a href="https://github.com/Muzzammil-Ahmed-Siddiqui/ai-code-review-assistant" target="_blank" rel="noopener noreferrer">
         <img src="https://img.shields.io/badge/View%20Project-181717?style=for-the-badge&logo=github&logoColor=white" />
       </a>
     </td>
@@ -121,7 +121,7 @@ mindset: Build, test, document, deploy
       <p>
         <b>Tech:</b> Python, Scikit-learn, Streamlit, Pandas, Docker, Pytest
       </p>
-      <a href="https://github.com/Muzzammil-Ahmed-Siddiqui/student-performance-prediction">
+      <a href="https://github.com/Muzzammil-Ahmed-Siddiqui/student-performance-prediction" target="_blank" rel="noopener noreferrer">
         <img src="https://img.shields.io/badge/View%20Project-181717?style=for-the-badge&logo=github&logoColor=white" />
       </a>
     </td>
@@ -160,12 +160,19 @@ mindset: Build, test, document, deploy
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Muzzammil-Ahmed-Siddiqui&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&include_all_commits=true&count_private=true" alt="Live GitHub stats" />
-<img height="170" src="https://github-readme-streak-stats.herokuapp.com?user=Muzzammil-Ahmed-Siddiqui&theme=tokyonight&hide_border=true" alt="Live GitHub streak" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Muzzammil-Ahmed-Siddiqui&theme=tokyonight" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Muzzammil-Ahmed-Siddiqui&theme=github" alt="GitHub profile summary" width="100%" />
+</picture>
 
 <br/><br/>
 
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Muzzammil-Ahmed-Siddiqui&layout=compact&theme=tokyonight&hide_border=true&langs_count=10" alt="Live top languages" />
+<img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Muzzammil-Ahmed-Siddiqui&theme=tokyonight" alt="Live GitHub stats" />
+<img height="170" src="https://streak-stats.demolab.com?user=Muzzammil-Ahmed-Siddiqui&theme=tokyonight&hide_border=true" alt="Live GitHub streak" />
+
+<br/><br/>
+
+<img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Muzzammil-Ahmed-Siddiqui&theme=tokyonight" alt="Live top languages" />
 
 <br/><br/>
 
@@ -173,64 +180,6 @@ mindset: Build, test, document, deploy
 
 </div>
 
----
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=Muzzammil-Ahmed-Siddiqui&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10&margin-h=10&column=7" alt="GitHub trophies" />
-
-</div>
-
----
-
-## 🐍 Contribution Snake
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/Muzzammil-Ahmed-Siddiqui/Muzzammil-Ahmed-Siddiqui/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
-
-</div>
-
-> To activate the snake animation, create this file in your profile repository:
->
-> `.github/workflows/snake.yml`
-
-```yml
-name: Generate Snake Animation
-
-on:
-  schedule:
-    - cron: "0 */12 * * *"
-  workflow_dispatch:
-  push:
-    branches:
-      - main
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-
-    steps:
-      - name: Generate snake
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: Muzzammil-Ahmed-Siddiqui
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      - name: Push snake to output branch
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
 
 ---
 
